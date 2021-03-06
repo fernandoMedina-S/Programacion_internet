@@ -1,0 +1,62 @@
+li{
+    list-style-type: none;
+}
+
+body{
+    background-image: url("./Images/bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.NavBar{
+   
+    text-align: center;
+    /* background-color: #1B5597; */
+    color: white;
+}
+
+.main_title{
+    text-align: center;
+}
+
+.list_element{
+    font-size:larger;
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+.prof_image{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+
+p{
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.subtitle{
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Fascinate', cursive;
+    font-size: x-large;
+}
+
+
+
+.skills{
+    
+    float: right;
+    text-align: right;
+    margin-right: -10px;
+}
+
+.img_skills{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.contact{
+    float: left;
+}

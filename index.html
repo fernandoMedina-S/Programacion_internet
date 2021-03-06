@@ -4,15 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fascinate&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>José Fernando Medina Sandoval</h1>
+    <h1 class="main_title">José Fernando Medina Sandoval</h1>
 
-    <img src="./profile.jpg" alt="profile image" width="200" height="200">
+    <div class="NavBar">
+        <ul>
+            <li class="list_element"><a href="#">About</a></li>
+            <li class="list_element"><a href="#">Skills</a></li>
+            <li class="list_element"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="prof_image">
+        <img src="./Images/profile.jpg" alt="profile image" width="150" height="150" >
+    </div>
+    
 
-    <h2>About</h2>
+    <h2 class="subtitle">About</h2>
     <p>I´m 21 years old and I´m a student from Mexico.</p>
-    <p>I´m studying Computing Engineering on Cucei</p>
-    <p>Redes: <a href="#">Github</a>, <a href="#">Facebook</a></p>
+    <p>I´m studying Computing Engineering on Cucei, curing the 6th grade</p>
+    <p>I have worked 6 months on the IT department from a building enterprise</p>
+    <p>I am really interested on AI research and Back End develop, I´m doing some projects related to that.</p>
+
+    <div class="skills">
+        <h3 class="subtitle">Skills</h3>
+        <ul>
+            <li><p>HTML, CSS, Javascript  70%</p></li>
+            <li><p>Python  75%</p></li>
+            <li><p>C#    80%</p></li>
+            <li><p>Java 80%</p></li>
+            <li><p>All from the above is Back End oriented</p></li>
+            <li><p>English level  Intermediate - Advanced</p></li>
+            <p>Japanese    Beginner - Intermediate</p>
+        </ul>
+    </div>
+    
+    <div class="img_skills">
+        <img src="./Images/pl.jpg" alt="Programming languages" width="350" height="250">
+    </div>
+    
+
+    <div class="contact">
+        <h4 class="subtitle">Contact</h4>
+        <p>Phone: +55 3243564</p>
+        <p>Media: <a href="#">Github</a>, <a href="#">Facebook</a></p>
+    </div>
+
 </body>
 </html>
